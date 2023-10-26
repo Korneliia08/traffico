@@ -1,0 +1,60 @@
+body .wrapper header {
+    position: relative;
+    width: 100%;
+    height: 60vw;
+    background-image: url("../assets/images/Scene.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+body .wrapper .divForMobel{
+    position: absolute;
+    background-image: url("../assets/images/mobel.svg");
+    background-repeat: no-repeat;
+    background-size: 45vw;
+    width: 100%;
+    height: 30vw;
+    top: 48vw;
+}
+
+body .wrapper .logoNav{
+    background-image: url("../assets/images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 15vw;
+    background-position: 40px 25px;
+    width: 89vw;
+    display: flex;
+    justify-content: end;
+    padding: 50px 0;
+}
+body .wrapper .logoNav nav{
+    width: 700px;
+}
+body .wrapper .logoNav nav a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-right: 85px;
+}
+
+body .wrapper .logoNav nav a:hover{
+   cursor: pointer;
+}
+
+.btnNav{
+    padding: 20px 24px;
+    border-radius: 5px;
+    background: #EE4D47;
+}
+
+.btnNav:hover{
+    background: #e15651;
+}
+
+
+
