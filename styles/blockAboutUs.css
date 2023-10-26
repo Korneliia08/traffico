@@ -1,10 +1,10 @@
-body .wrapper main .blockAboutUs{
+body .wrapper main .blockAboutUs {
     width: 100%;
     height: 36vw;
     display: flex;
 }
 
-body .wrapper main .blockAboutUs .content{
+body .wrapper main .blockAboutUs .content {
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -12,15 +12,16 @@ body .wrapper main .blockAboutUs .content{
     align-items: center;
 
 }
-body .wrapper main .blockAboutUs .forBackgroundImage{
+
+body .wrapper main .blockAboutUs .forBackgroundImage {
     width: 45%;
     height: 95%;
-    background-image: url("../assets/images/illustrationAboutUs.svg");
+    background-image: url("../assets/images/IllustrationAboutUs.svg");
     background-size: 45vw;
     background-repeat: no-repeat;
 }
 
-body .wrapper main .blockAboutUs .content .titleAboutUs{
+body .wrapper main .blockAboutUs .content .titleAboutUs {
     color: #EE4D47;
     font-size: 24px;
     font-style: normal;
@@ -30,7 +31,7 @@ body .wrapper main .blockAboutUs .content .titleAboutUs{
     margin-bottom: 40px;
 }
 
-body .wrapper main .blockAboutUs .content .contentP{
+body .wrapper main .blockAboutUs .content .contentP {
     color: #402B2B;
     font-size: 18px;
     font-style: normal;
@@ -38,14 +39,15 @@ body .wrapper main .blockAboutUs .content .contentP{
     line-height: 40px;
     width: 400px;
 }
-body .wrapper main .blockAboutUs .content .contentPink{
+
+body .wrapper main .blockAboutUs .content .contentPink {
     border-left: 10px solid #ED4D47;
     box-sizing: border-box;
     padding: 45px 30px;
     margin-top: 70px;
     width: 460px;;
     background-color: rgba(252, 221, 212, 0.92);
-    color:  #402B2B;
+    color: #402B2B;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
