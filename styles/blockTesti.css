@@ -1,0 +1,102 @@
+.blockTesti {
+    margin-left: 20vw;
+}
+
+.blockTesti .blockTestiTop {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blockTesti .blockTestiTop h3 {
+    color: #EE4D47;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+    padding-bottom: 20px;
+}
+
+.blockTesti .blockTestiTop .buttonArrow {
+    margin-right: 10vw;
+}
+
+.blockTesti .blockTestiBottom {
+
+    display: flex;
+    flex-shrink: 0;
+}
+
+
+.blockTesti .blockTestiBottom .testiContent {
+    width: 35vw;
+
+}
+
+.blockTesti .blockTestiBottom .testiContent p {
+    color: #402B2B;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+}
+
+.blockTesti .blockTestiBottom .testiTitles {
+    display: flex;
+    column-gap: 2.5vw;
+    flex-direction: row;
+    overflow-x: hidden;
+
+}
+
+.blockTesti .blockTestiBottom .testiTitles .tile {
+    height: 350px;
+    flex-shrink: 0;
+    width: 350px;
+    background: white;
+    padding: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blockTesti .blockTestiBottom .testiTitles .tile:last-child {
+    filter: opacity(0.2);
+}
+
+.blockTesti .blockTestiBottom .testiTitles .tile .textContent {
+
+}
+
+.blockTesti .blockTestiBottom .testiTitles .tile .textContent p {
+    color: #402B2B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.blockTesti .blockTestiBottom .testiTitles .tile .author {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.blockTesti .blockTestiBottom .testiTitles .tile .author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.blockTesti .blockTestiBottom .testiTitles .tile .author p {
+    color: #402B2B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+}

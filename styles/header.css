@@ -6,7 +6,8 @@ body .wrapper header {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-body .wrapper .divForMobel{
+
+body .wrapper .divForMobel {
     position: absolute;
     background-image: url("../assets/images/mobel.svg");
     background-repeat: no-repeat;
@@ -16,20 +17,22 @@ body .wrapper .divForMobel{
     top: 48vw;
 }
 
-body .wrapper .logoNav{
+body .wrapper .logoNav {
     background-image: url("../assets/images/logo.svg");
     background-repeat: no-repeat;
     background-size: 15vw;
-    background-position: 40px 25px;
+    background-position: 100px 25px;
     width: 89vw;
     display: flex;
     justify-content: end;
     padding: 50px 0;
 }
-body .wrapper .logoNav nav{
+
+body .wrapper .logoNav nav {
     width: 700px;
 }
-body .wrapper .logoNav nav a{
+
+body .wrapper .logoNav nav a {
     text-decoration: none;
     color: #FFF;
     text-align: center;
@@ -42,18 +45,57 @@ body .wrapper .logoNav nav a{
     margin-right: 85px;
 }
 
-body .wrapper .logoNav nav a:hover{
-   cursor: pointer;
+body .wrapper .logoNav nav a:hover {
+    cursor: pointer;
 }
 
-.btnNav{
+.getStarted {
+    padding: 20px;
+    margin-left: 7vw;
+    height: min-content;
+    width: 220px;
+    margin-top: 2vw;
+    border-radius: 5px;
+    background: #EE4D47;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.getStarted:hover {
+    background: #cb403b;
+}
+
+body .wrapper .getStarted img {
+    margin-left: 20px;
+}
+
+.btnNav {
     padding: 20px 24px;
     border-radius: 5px;
     background: #EE4D47;
+
 }
 
-.btnNav:hover{
+.btnNav:hover {
     background: #e15651;
+}
+
+.titleHeader {
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    width: 54vw;
+    text-align: left;
+    margin-left: 7vw;
 }
 
 

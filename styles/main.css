@@ -1,5 +1,12 @@
+@font-face {
+    font-family: Rubik;
+    src: url("../assets/fonts/static/Rubik-Light.ttf");
+}
+
+
 body {
     margin: 0;
+    font-family: Rubik;
 }
 
 h6, h5, h4, h3, h2, h1, p {
@@ -10,8 +17,10 @@ body .wrapper {
     width: 100%;
     background-color: #FEF8F5;
 }
-body .wrapper main{
+
+body .wrapper main {
     padding-top: 100px;
     margin-top: 18vw;
     box-sizing: border-box;
 }
+

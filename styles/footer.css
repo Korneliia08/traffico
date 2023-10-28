@@ -1,0 +1,141 @@
+footer .footerTopImage {
+    background-image: url("./../assets/images/footerTruck.svg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left;
+    height: 13vw;
+    width: 100%;
+    margin-top: 8vw;
+}
+
+
+footer .footerTop {
+    min-height: 25vw;
+    border-top-right-radius: 50px;
+    background: #0F264C;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footerTop svg {
+    position: absolute;
+    left: 0;
+}
+
+footer .footerText {
+
+    width: 550px;
+
+    display: flex;
+    align-items: flex-start;
+    padding-top: 5vw;
+}
+
+footer .footerText p {
+    color: #FFF;
+    font-size: 20px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px;
+    border-left: 15px solid #ED4D47;
+}
+
+
+footer .footerTop .footerForm {
+    width: 550px;
+    height: 440px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(238, 77, 71, 0.10);
+    position: relative;
+    top: -10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.footerForm input {
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid #EE4D47;
+    padding-left: 20px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(238, 77, 71, 0.20);
+    color: #402B2B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px
+}
+
+.footerForm input::placeholder {
+    color: #402B2B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px
+}
+
+.footerForm label {
+    margin-top: 30px;
+    width: 400px;
+    text-align: left;
+    display: block;
+    height: 38px;
+    flex-shrink: 0;
+    color: #402B2B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px
+}
+
+footer .footerMiddle {
+    background: #0F264C;
+    min-height: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15vw;
+    padding-right: 7vw;
+}
+
+footer .footerMiddle a {
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+
+footer .footerBottom {
+    min-height: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15vw;
+    padding-right: 7vw;
+}
+
+footer .footerBottom nav {
+
+}
+
+
+footer .buttonDiv {
+    width: 425px;
+    padding-top: 20px;
+}
+
+footer .buttonDiv .getStarted {
+    margin: 0;
+}
+
+.getStarted:hover {
+    background: #cb403b;
+}
