@@ -7,7 +7,6 @@ This website:
 * it is a responsive website,
 * made some animations using transform
 * made using samantic tegs
-  
- 
- # "HEADER" component
+
+#Preview
 ![image](https://github.com/Korneliia08/trafico/blob/master/assets/images/trafico.png)
