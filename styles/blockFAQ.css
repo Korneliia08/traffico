@@ -155,6 +155,10 @@ body .wrapper main .blockFAQ .questions {
     border: none;
 }
 
+.buttonContainer button:hover {
+    cursor: pointer;
+}
+
 
 body .wrapper main .blockFAQ .question.readMore {
     width: 100%;

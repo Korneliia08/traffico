@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+    .blockTesti .blockTestiBottom .testiTitles .tile {
+        height: 300px;
+        width: 300px;
+        padding: 4vw;
+    }
+
+    .blockTesti {
+        margin-left: 10vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .blockTesti .blockTestiBottom .testiTitles .tile {
+        height: 250px;
+        width: 250px;
+        padding: 4vw;
+    }
+
+    .blockTesti {
+        margin-left: 1vw;
+    }
+}
+
+@media (max-width: 700px) {
+
+
+    body .wrapper main .blockFAQ .questions {
+        width: 95%;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    body .wrapper main .blockFAQ .backgroundImageColor {
+        background-position: 30vw 1vw;
+
+    }
+
+}

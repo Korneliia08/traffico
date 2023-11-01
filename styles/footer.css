@@ -135,7 +135,3 @@ footer .buttonDiv {
 footer .buttonDiv .getStarted {
     margin: 0;
 }
-
-.getStarted:hover {
-    background: #cb403b;
-}

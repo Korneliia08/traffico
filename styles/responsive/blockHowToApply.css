@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+
+    body .wrapper main .blockHowToApply {
+        height: 50vw;
+    }
+}
+
+@media (max-width: 770px) {
+    body .wrapper main .blockHowToApply {
+        height: 120vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body .wrapper main .blockHowToApply {
+        height: 80vw;
+    }
+}
+
+
+@media (max-width: 630px) {
+
+
+}
+
+@media (max-width: 450px) {
+    body .wrapper main .blockHowToApply {
+        height: 150vw;
+
+
+    }
+
+    body .wrapper main .blockHowToApply .content {
+        width: 90%;
+    }
+
+    body .wrapper main .blockHowToApply .content .contentP {
+        width: 90%;
+    }
+}

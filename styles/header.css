@@ -68,10 +68,6 @@ body .wrapper .logoNav nav a:hover {
     cursor: pointer;
 }
 
-.getStarted:hover {
-    background: #cb403b;
-}
-
 body .wrapper .getStarted img {
     margin-left: 20px;
 }
