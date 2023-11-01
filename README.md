@@ -10,4 +10,4 @@ This website:
   
  
  # "HEADER" component
-![image](https://github.com/Korneliia08/Rayal-Park/blob/master/src/assets/imagesOfProject/header.png)
+![image](https://github.com/Korneliia08/trafico/blob/master/assets/images/trafico.png)
