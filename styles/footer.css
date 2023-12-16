@@ -120,10 +120,7 @@ footer .footerBottom {
     align-items: center;
     padding-left: 15vw;
     padding-right: 7vw;
-}
-
-footer .footerBottom nav {
-
+    box-sizing: border-box;
 }
 
 

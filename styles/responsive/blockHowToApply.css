@@ -7,27 +7,36 @@
 
 @media (max-width: 770px) {
     body .wrapper main .blockHowToApply {
-        height: 120vw;
+        height: 20vw;
         flex-direction: column;
         align-items: center;
+        justify-content: flex-end;
+    }
+
+    body .wrapper main .blockHowToApply .forBackgroundImage {
+        height: 100%;
+        background-size: 35vw;
     }
 
     body .wrapper main .blockHowToApply {
         height: 80vw;
     }
+
+    body .wrapper main .blockHowToApply .content .titleApply {
+        margin-bottom: 8px;
+        line-height: 20px;
+    }
+
+    body .wrapper main .blockHowToApply .content .contentP {
+        line-height: 25px;
+        font-size: 16px;
+    }
 }
 
-
-@media (max-width: 630px) {
-
-
-}
 
 @media (max-width: 450px) {
     body .wrapper main .blockHowToApply {
-        height: 150vw;
-
-
+        height: 383px;
     }
 
     body .wrapper main .blockHowToApply .content {
@@ -36,5 +45,11 @@
 
     body .wrapper main .blockHowToApply .content .contentP {
         width: 90%;
+    }
+}
+
+@media (max-width: 370px) {
+    body .wrapper main .blockHowToApply {
+        height: 410px;
     }
 }

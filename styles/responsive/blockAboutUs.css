@@ -1,10 +1,68 @@
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
+    body .wrapper main .blockAboutUs .content .contentPink {
+        margin: 20px 0;
+    }
 
+    body .wrapper main .blockHowToApply .content .titleApply {
+        margin-bottom: 10px;
+    }
+
+    body .wrapper main .blockAboutUs .content .titleAboutUs {
+        margin-bottom: 10px;
+    }
+
+    body .wrapper main .blockHowToApply .content .contentP {
+        line-height: 28px;
+    }
+
+    body .wrapper main .blockAboutUs .content .contentP {
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 900px) {
     body .wrapper main .blockAboutUs {
         width: 100%;
-        height: 70vw;
         display: flex;
     }
+
+    body .wrapper main .blockAboutUs .forBackgroundImage {
+        height: 70%;
+        background-size: 30vw;
+    }
+
+    body .wrapper main .blockAboutUs .content .contentPink {
+        border-left: 10px solid #ED4D47;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        margin: 8px 0;
+        width: 400px;
+        background-color: rgba(252, 221, 212, 0.92);
+        color: #402B2B;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 770px) {
+    body .wrapper main .blockAboutUs {
+        width: 100%;
+        height: 85vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body .wrapper main .blockAboutUs .content {
+        width: 100%;
+    }
+
+    body .wrapper main .blockAboutUs .forBackgroundImage {
+        width: 87%;
+        background-position: center;
+    }
+
 }
 
 @media (max-width: 700px) {
@@ -30,48 +88,39 @@
     }
 }
 
-@media (max-width: 770px) {
-
+@media (max-width: 640px) {
     body .wrapper main .blockAboutUs {
-        width: 100%;
-        height: 80vw;
-        display: flex;
+        padding-bottom: 20px;
+        height: auto;
     }
 
-    body .wrapper main .blockAboutUs .content {
-        width: 100%;
+    body .wrapper main .blockAboutUs .content .contentP {
+        font-size: 16px;
+        line-height: 20px;
     }
 
     body .wrapper main .blockAboutUs .forBackgroundImage {
-        width: 87%;
-        background-position: center;
-    }
-
-    body .wrapper main .blockAboutUs {
-        height: 120vw;
-        flex-direction: column;
-    }
-
-}
-
-@media (max-width: 630px) {
-    body .wrapper main .blockAboutUs .content .contentP {
-        font-size: 16px;
-    }
-
-
-    body .wrapper main .blockAboutUs {
-        height: 150vw;
+        width: 95%;
+        height: 150px;
+        background-size: 30vw;
     }
 
     body .wrapper main .blockAboutUs .content .contentPink {
         width: 95%;
+        padding: 20px 15px;
+        margin-top: 10px;
+        color: #402B2B;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    body .wrapper main .blockAboutUs .content .titleAboutUs {
+        margin-bottom: 10px;
     }
 }
 
 
 @media (max-width: 450px) {
-
 
     body .wrapper main .blockAboutUs .content .contentP {
         width: 90%;
@@ -81,14 +130,6 @@
 
     body .wrapper main .blockAboutUs .content .contentPink {
         width: 90%;
-    }
-
-    body .wrapper main .blockAboutUs .forBackgroundImage {
-        background-position: left;
-    }
-
-    body .wrapper main .blockAboutUs {
-        height: 210vw;
     }
 
 }

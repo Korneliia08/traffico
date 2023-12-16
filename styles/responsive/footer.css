@@ -77,3 +77,34 @@
         padding: 10px;
     }
 }
+
+@media (max-width: 450px) {
+    footer .footerTop .footerForm {
+        margin-top: 20px;
+        width: 240px;
+        height: 280px;
+    }
+
+    footer .footerTop .footerForm input {
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    footer .footerTop .footerForm label {
+        margin-top: 10px;
+    }
+
+    footer .buttonDiv .getStarted {
+        padding: 10px;
+        margin-top: 2vw;
+        font-size: 12px;
+    }
+
+    footer .footerBottom p {
+        margin-right: 10px;
+    }
+
+    footer .footerBottom img {
+        width: 90px;
+    }
+}

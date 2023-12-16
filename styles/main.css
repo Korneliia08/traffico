@@ -5,6 +5,11 @@ body {
 
 h6, h5, h4, h3, h2, h1, p {
     margin: 0;
+    font-family: Rubik, cursive;
+}
+
+span {
+    font-family: Rubik, cursive;
 }
 
 body .wrapper {
@@ -16,4 +21,9 @@ body .wrapper main {
     padding-top: 100px;
     margin-top: 18vw;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url("../assets/fonts/static/Rubik-Bold.ttf");
 }
