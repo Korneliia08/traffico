@@ -36,7 +36,7 @@
 
 @media (max-width: 450px) {
     body .wrapper main .blockHowToApply {
-        height: 383px;
+        height: 440px;
     }
 
     body .wrapper main .blockHowToApply .content {
@@ -50,6 +50,6 @@
 
 @media (max-width: 370px) {
     body .wrapper main .blockHowToApply {
-        height: 410px;
+        height: 470px;
     }
 }
